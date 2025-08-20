@@ -1,0 +1,173 @@
+export const menuData = [
+        // 한식 - 찌개/국물류
+        { id: 1, name: "김치찌개", category: "korean-soup", calories: 350, ingredients: ["김치", "돼지고기", "두부"], weatherPreference: "cold", timePreference: ["lunch", "dinner"], groupSize: [1,2,3,4], mood: ["comfort", "warm"] },
+        { id: 2, name: "된장찌개", category: "korean-soup", calories: 280, ingredients: ["된장", "두부", "파"], weatherPreference: "cold", timePreference: ["lunch", "dinner"], groupSize: [1,2,3], mood: ["comfort", "warm"] },
+        { id: 3, name: "갈비탕", category: "korean-soup", calories: 450, ingredients: ["갈비", "무", "대파"], weatherPreference: "cold", timePreference: ["lunch", "dinner"], groupSize: [1,2,3], mood: ["heavy", "comfort"] },
+        { id: 4, name: "순두부찌개", category: "korean-soup", calories: 280, ingredients: ["순두부", "계란", "파"], weatherPreference: "cold", timePreference: ["lunch", "dinner"], groupSize: [1,2], mood: ["comfort", "warm"] },
+        { id: 5, name: "미역국", category: "korean-soup", calories: 150, ingredients: ["미역", "소고기", "참기름"], weatherPreference: "any", timePreference: ["breakfast", "lunch"], groupSize: [1,2], mood: ["light", "healthy"] },
+        { id: 6, name: "부대찌개", category: "korean-soup", calories: 420, ingredients: ["소시지", "햄", "라면사리"], weatherPreference: "cold", timePreference: ["dinner", "late"], groupSize: [2,3,4], mood: ["heavy", "comfort"] },
+        { id: 7, name: "감자탕", category: "korean-soup", calories: 380, ingredients: ["감자", "등뼈", "우거지"], weatherPreference: "cold", timePreference: ["dinner"], groupSize: [2,3,4,5], mood: ["heavy", "warm"] },
+        { id: 8, name: "설렁탕", category: "korean-soup", calories: 320, ingredients: ["사골", "소고기", "대파"], weatherPreference: "cold", timePreference: ["lunch", "dinner"], groupSize: [1,2], mood: ["comfort", "warm"] },
+        { id: 9, name: "북엇국", category: "korean-soup", calories: 200, ingredients: ["북어", "무", "파"], weatherPreference: "cold", timePreference: ["breakfast", "lunch"], groupSize: [1,2], mood: ["light", "comfort"] },
+        { id: 10, name: "콩나물국", category: "korean-soup", calories: 120, ingredients: ["콩나물", "대파", "다시마"], weatherPreference: "any", timePreference: ["breakfast", "lunch"], groupSize: [1,2], mood: ["light", "healthy"] },
+        { id: 11, name: "육개장", category: "korean-soup", calories: 380, ingredients: ["소고기", "고사리", "숙주"], weatherPreference: "cold", timePreference: ["lunch", "dinner"], groupSize: [1,2,3], mood: ["spicy", "warm"] },
+        { id: 12, name: "해장국", category: "korean-soup", calories: 320, ingredients: ["선지", "콩나물", "시래기"], weatherPreference: "cold", timePreference: ["breakfast", "lunch"], groupSize: [1,2], mood: ["comfort", "warm"] },
+        { id: 13, name: "동태찌개", category: "korean-soup", calories: 250, ingredients: ["동태", "무", "고추"], weatherPreference: "cold", timePreference: ["lunch", "dinner"], groupSize: [1,2,3], mood: ["spicy", "warm"] },
+        { id: 14, name: "순대국", category: "korean-soup", calories: 350, ingredients: ["순대", "돼지고기", "깍두기"], weatherPreference: "cold", timePreference: ["lunch", "dinner"], groupSize: [1,2], mood: ["heavy", "comfort"] },
+      
+        // 한식 - 구이/볶음류
+        { id: 15, name: "불고기", category: "korean-grill", calories: 420, ingredients: ["소고기", "양파", "당근"], weatherPreference: "any", timePreference: ["lunch", "dinner"], groupSize: [2,3,4,5], mood: ["special", "heavy"] },
+        { id: 16, name: "삼겹살", category: "korean-grill", calories: 520, ingredients: ["돼지고기", "상추", "마늘"], weatherPreference: "any", timePreference: ["dinner"], groupSize: [2,3,4,5], mood: ["special", "heavy"] },
+        { id: 17, name: "갈비", category: "korean-grill", calories: 480, ingredients: ["소갈비", "양념", "마늘"], weatherPreference: "any", timePreference: ["dinner"], groupSize: [2,3,4,5], mood: ["special", "heavy"] },
+        { id: 18, name: "제육볶음", category: "korean-grill", calories: 380, ingredients: ["돼지고기", "고추장", "양파"], weatherPreference: "any", timePreference: ["lunch", "dinner"], groupSize: [1,2,3], mood: ["spicy", "heavy"] },
+        { id: 19, name: "닭갈비", category: "korean-grill", calories: 350, ingredients: ["닭고기", "고추장", "양배추"], weatherPreference: "any", timePreference: ["dinner"], groupSize: [2,3,4], mood: ["spicy", "special"] },
+        { id: 20, name: "오징어볶음", category: "korean-grill", calories: 290, ingredients: ["오징어", "고추장", "양파"], weatherPreference: "any", timePreference: ["dinner"], groupSize: [2,3,4], mood: ["spicy", "light"] },
+        { id: 21, name: "장어구이", category: "korean-grill", calories: 450, ingredients: ["장어", "양념", "마늘"], weatherPreference: "any", timePreference: ["dinner"], groupSize: [1,2,3], mood: ["special", "heavy"] },
+        { id: 22, name: "곱창볶음", category: "korean-grill", calories: 420, ingredients: ["곱창", "양파", "고추"], weatherPreference: "any", timePreference: ["dinner", "late"], groupSize: [2,3,4], mood: ["spicy", "heavy"] },
+        { id: 23, name: "불낙전골", category: "korean-grill", calories: 380, ingredients: ["불고기", "낙지", "양념"], weatherPreference: "cold", timePreference: ["dinner"], groupSize: [2,3,4], mood: ["spicy", "special"] },
+      
+        // 한식 - 밥류
+        { id: 24, name: "비빔밥", category: "korean-rice", calories: 380, ingredients: ["쌀", "나물", "고추장"], weatherPreference: "any", timePreference: ["lunch"], groupSize: [1,2], mood: ["healthy", "light"] },
+        { id: 25, name: "볶음밥", category: "korean-rice", calories: 420, ingredients: ["쌀", "계란", "채소"], weatherPreference: "any", timePreference: ["lunch", "dinner"], groupSize: [1,2], mood: ["quick", "comfort"] },
+        { id: 26, name: "김치볶음밥", category: "korean-rice", calories: 390, ingredients: ["김치", "쌀", "계란"], weatherPreference: "any", timePreference: ["lunch", "dinner"], groupSize: [1,2], mood: ["comfort", "quick"] },
+        { id: 27, name: "덮밥", category: "korean-rice", calories: 450, ingredients: ["쌀", "고기", "양파"], weatherPreference: "any", timePreference: ["lunch", "dinner"], groupSize: [1,2], mood: ["heavy", "quick"] },
+        { id: 28, name: "돌솥비빔밥", category: "korean-rice", calories: 420, ingredients: ["쌀", "나물", "고추장"], weatherPreference: "any", timePreference: ["lunch"], groupSize: [1,2], mood: ["healthy", "warm"] },
+        { id: 29, name: "참치마요덮밥", category: "korean-rice", calories: 380, ingredients: ["쌀", "참치", "마요네즈"], weatherPreference: "any", timePreference: ["lunch", "dinner"], groupSize: [1,2], mood: ["light", "quick"] },
+        { id: 30, name: "돼지국밥", category: "korean-rice", calories: 450, ingredients: ["돼지고기", "쌀", "국물"], weatherPreference: "cold", timePreference: ["lunch", "dinner"], groupSize: [1,2], mood: ["heavy", "warm"] },
+        { id: 31, name: "순대국밥", category: "korean-rice", calories: 420, ingredients: ["순대", "쌀", "국물"], weatherPreference: "cold", timePreference: ["lunch", "dinner"], groupSize: [1,2], mood: ["heavy", "comfort"] },
+        { id: 32, name: "제육덮밥", category: "korean-rice", calories: 480, ingredients: ["돼지고기", "쌀", "고추장"], weatherPreference: "any", timePreference: ["lunch", "dinner"], groupSize: [1,2], mood: ["spicy", "heavy"] },
+      
+        // 한식 - 면류
+        { id: 33, name: "냉면", category: "korean-noodle", calories: 320, ingredients: ["메밀면", "육수", "오이"], weatherPreference: "hot", timePreference: ["lunch"], groupSize: [1,2,3], mood: ["refreshing", "light"] },
+        { id: 34, name: "콩국수", category: "korean-noodle", calories: 280, ingredients: ["소면", "콩물", "오이"], weatherPreference: "hot", timePreference: ["lunch"], groupSize: [1,2], mood: ["refreshing", "light"] },
+        { id: 35, name: "잔치국수", category: "korean-noodle", calories: 250, ingredients: ["소면", "멸치육수", "파"], weatherPreference: "cold", timePreference: ["lunch", "snack"], groupSize: [1,2], mood: ["light", "quick"] },
+        { id: 36, name: "칼국수", category: "korean-noodle", calories: 380, ingredients: ["밀가루면", "멸치육수", "호박"], weatherPreference: "cold", timePreference: ["lunch", "dinner"], groupSize: [1,2,3], mood: ["warm", "comfort"] },
+        { id: 37, name: "비빔냉면", category: "korean-noodle", calories: 340, ingredients: ["메밀면", "고추장", "채소"], weatherPreference: "hot", timePreference: ["lunch"], groupSize: [1,2], mood: ["refreshing", "spicy"] },
+        { id: 38, name: "비빔국수", category: "korean-noodle", calories: 320, ingredients: ["소면", "고추장", "채소"], weatherPreference: "hot", timePreference: ["lunch", "snack"], groupSize: [1,2], mood: ["refreshing", "spicy"] },
+        { id: 39, name: "평양냉면", category: "korean-noodle", calories: 300, ingredients: ["메밀면", "동치미", "무"], weatherPreference: "hot", timePreference: ["lunch"], groupSize: [1,2], mood: ["refreshing", "light"] },
+        { id: 40, name: "함흥냉면", category: "korean-noodle", calories: 350, ingredients: ["전분면", "고추장", "회"], weatherPreference: "hot", timePreference: ["lunch"], groupSize: [1,2], mood: ["refreshing", "spicy"] },
+        { id: 41, name: "라면", category: "korean-noodle", calories: 450, ingredients: ["라면", "계란", "파"], weatherPreference: "cold", timePreference: ["snack", "late"], groupSize: [1,2], mood: ["quick", "comfort"] },
+      
+        // 한식 - 죽류
+        { id: 42, name: "전복죽", category: "korean-soup", calories: 220, ingredients: ["전복", "쌀", "참기름"], weatherPreference: "cold", timePreference: ["breakfast", "dinner"], groupSize: [1,2], mood: ["light", "healthy"] },
+        { id: 43, name: "닭죽", category: "korean-soup", calories: 280, ingredients: ["닭고기", "쌀", "대추"], weatherPreference: "cold", timePreference: ["breakfast", "dinner"], groupSize: [1,2], mood: ["comfort", "light"] },
+        { id: 44, name: "단호박죽", category: "korean-soup", calories: 180, ingredients: ["단호박", "쌀", "우유"], weatherPreference: "cold", timePreference: ["breakfast", "snack"], groupSize: [1,2], mood: ["light", "healthy"] },
+        { id: 45, name: "녹두죽", category: "korean-soup", calories: 200, ingredients: ["녹두", "쌀", "새우"], weatherPreference: "hot", timePreference: ["breakfast", "lunch"], groupSize: [1,2], mood: ["light", "healthy"] },
+      
+        // 중식
+        { id: 46, name: "짜장면", category: "chinese", calories: 450, ingredients: ["면", "춘장", "양파"], weatherPreference: "any", timePreference: ["lunch", "dinner"], groupSize: [1,2], mood: ["comfort", "quick"] },
+        { id: 47, name: "짬뽕", category: "chinese", calories: 520, ingredients: ["면", "해산물", "채소"], weatherPreference: "cold", timePreference: ["lunch", "dinner"], groupSize: [1,2,3], mood: ["spicy", "warm"] },
+        { id: 48, name: "탕수육", category: "chinese", calories: 380, ingredients: ["돼지고기", "전분", "소스"], weatherPreference: "any", timePreference: ["lunch", "dinner"], groupSize: [2,3,4], mood: ["special", "heavy"] },
+        { id: 49, name: "마파두부", category: "chinese", calories: 320, ingredients: ["두부", "돼지고기", "고추"], weatherPreference: "cold", timePreference: ["lunch", "dinner"], groupSize: [1,2,3], mood: ["spicy", "warm"] },
+        { id: 50, name: "깐풍기", category: "chinese", calories: 410, ingredients: ["닭고기", "고추", "양파"], weatherPreference: "any", timePreference: ["lunch", "dinner"], groupSize: [2,3,4], mood: ["spicy", "special"] },
+        { id: 51, name: "마라탕", category: "chinese", calories: 350, ingredients: ["면", "채소", "마라소스"], weatherPreference: "cold", timePreference: ["lunch", "dinner"], groupSize: [1,2], mood: ["spicy", "warm"] },
+        { id: 52, name: "양꼬치", category: "chinese", calories: 320, ingredients: ["양고기", "양파", "향신료"], weatherPreference: "any", timePreference: ["dinner", "late"], groupSize: [2,3,4], mood: ["special", "heavy"] },
+        { id: 53, name: "양장피", category: "chinese", calories: 280, ingredients: ["완자", "해삼", "소스"], weatherPreference: "any", timePreference: ["lunch", "dinner"], groupSize: [2,3,4], mood: ["light", "special"] },
+        { id: 54, name: "고추잡채", category: "chinese", calories: 320, ingredients: ["당면", "고추", "고기"], weatherPreference: "any", timePreference: ["lunch", "dinner"], groupSize: [2,3,4], mood: ["light", "comfort"] },
+        { id: 55, name: "유산슬", category: "chinese", calories: 350, ingredients: ["고기", "해산물", "채소"], weatherPreference: "any", timePreference: ["lunch", "dinner"], groupSize: [2,3,4], mood: ["light", "special"] },
+        { id: 56, name: "새우볶음밥", category: "chinese", calories: 420, ingredients: ["새우", "쌀", "계란"], weatherPreference: "any", timePreference: ["lunch", "dinner"], groupSize: [1,2], mood: ["quick", "light"] },
+        { id: 57, name: "양주볶음밥", category: "chinese", calories: 450, ingredients: ["햄", "쌀", "완두콩"], weatherPreference: "any", timePreference: ["lunch", "dinner"], groupSize: [1,2], mood: ["quick", "comfort"] },
+        { id: 58, name: "계란탕", category: "chinese", calories: 120, ingredients: ["계란", "대파", "국물"], weatherPreference: "cold", timePreference: ["lunch", "dinner"], groupSize: [1,2,3], mood: ["light", "warm"] },
+      
+        // 일식
+        { id: 59, name: "초밥", category: "japanese", calories: 280, ingredients: ["쌀", "생선", "와사비"], weatherPreference: "any", timePreference: ["lunch", "dinner"], groupSize: [1,2,3], mood: ["special", "light"] },
+        { id: 60, name: "라멘", category: "japanese", calories: 480, ingredients: ["면", "육수", "차슈"], weatherPreference: "cold", timePreference: ["lunch", "dinner", "late"], groupSize: [1,2], mood: ["comfort", "warm"] },
+        { id: 61, name: "우동", category: "japanese", calories: 320, ingredients: ["면", "육수", "가마보코"], weatherPreference: "cold", timePreference: ["lunch", "snack"], groupSize: [1,2], mood: ["light", "quick"] },
+        { id: 62, name: "돈카츠", category: "japanese", calories: 520, ingredients: ["돼지고기", "빵가루", "양배추"], weatherPreference: "any", timePreference: ["lunch", "dinner"], groupSize: [1,2,3], mood: ["heavy", "comfort"] },
+        { id: 63, name: "규동", category: "japanese", calories: 380, ingredients: ["쌀", "소고기", "양파"], weatherPreference: "any", timePreference: ["lunch", "dinner"], groupSize: [1,2], mood: ["quick", "comfort"] },
+        { id: 64, name: "연어덮밥", category: "japanese", calories: 420, ingredients: ["쌀", "연어", "아보카도"], weatherPreference: "any", timePreference: ["lunch", "dinner"], groupSize: [1,2], mood: ["healthy", "light"] },
+        { id: 65, name: "야키토리", category: "japanese", calories: 280, ingredients: ["닭고기", "타레소스", "파"], weatherPreference: "any", timePreference: ["dinner", "late"], groupSize: [2,3,4], mood: ["special", "light"] },
+        { id: 66, name: "가츠동", category: "japanese", calories: 580, ingredients: ["돈카츠", "쌀", "계란"], weatherPreference: "any", timePreference: ["lunch", "dinner"], groupSize: [1,2], mood: ["heavy", "comfort"] },
+        { id: 67, name: "오코노미야키", category: "japanese", calories: 420, ingredients: ["밀가루", "양배추", "소스"], weatherPreference: "any", timePreference: ["snack", "dinner"], groupSize: [1,2,3], mood: ["comfort", "quick"] },
+        { id: 68, name: "다코야키", category: "japanese", calories: 320, ingredients: ["밀가루", "문어", "소스"], weatherPreference: "any", timePreference: ["snack"], groupSize: [1,2,3], mood: ["light", "quick"] },
+        { id: 69, name: "카레라이스", category: "japanese", calories: 450, ingredients: ["카레", "쌀", "고기"], weatherPreference: "cold", timePreference: ["lunch", "dinner"], groupSize: [1,2], mood: ["comfort", "warm"] },
+        { id: 70, name: "모츠나베", category: "japanese", calories: 380, ingredients: ["곱창", "야채", "국물"], weatherPreference: "cold", timePreference: ["dinner"], groupSize: [2,3,4], mood: ["warm", "special"] },
+      
+        // 양식
+        { id: 71, name: "파스타", category: "western", calories: 420, ingredients: ["면", "토마토", "올리브오일"], weatherPreference: "any", timePreference: ["lunch", "dinner"], groupSize: [1,2,3], mood: ["special", "comfort"] },
+        { id: 72, name: "햄버거", category: "western", calories: 550, ingredients: ["빵", "패티", "채소"], weatherPreference: "any", timePreference: ["lunch", "dinner", "late"], groupSize: [1,2], mood: ["quick", "heavy"] },
+        { id: 73, name: "피자", category: "western", calories: 480, ingredients: ["도우", "치즈", "토마토소스"], weatherPreference: "any", timePreference: ["lunch", "dinner", "late"], groupSize: [2,3,4,5], mood: ["special", "heavy"] },
+        { id: 74, name: "스테이크", category: "western", calories: 420, ingredients: ["소고기", "감자", "버터"], weatherPreference: "any", timePreference: ["dinner"], groupSize: [1,2], mood: ["special", "heavy"] },
+        { id: 75, name: "샐러드", category: "western", calories: 180, ingredients: ["채소", "드레싱", "견과류"], weatherPreference: "hot", timePreference: ["lunch"], groupSize: [1,2], mood: ["healthy", "light"] },
+        { id: 76, name: "리조또", category: "western", calories: 380, ingredients: ["쌀", "치즈", "버섯"], weatherPreference: "any", timePreference: ["lunch", "dinner"], groupSize: [1,2], mood: ["special", "comfort"] },
+        { id: 77, name: "오므라이스", category: "western", calories: 450, ingredients: ["계란", "밥", "케첩"], weatherPreference: "any", timePreference: ["lunch", "dinner"], groupSize: [1,2], mood: ["comfort", "quick"] },
+        { id: 78, name: "라자냐", category: "western", calories: 520, ingredients: ["파스타", "치즈", "미트소스"], weatherPreference: "cold", timePreference: ["lunch", "dinner"], groupSize: [2,3,4], mood: ["heavy", "special"] },
+        { id: 79, name: "치즈 오븐 스파게티", category: "western", calories: 480, ingredients: ["스파게티", "치즈", "크림"], weatherPreference: "cold", timePreference: ["lunch", "dinner"], groupSize: [1,2], mood: ["comfort", "heavy"] },
+        { id: 80, name: "클럽샌드위치", category: "western", calories: 420, ingredients: ["빵", "베이컨", "토마토"], weatherPreference: "any", timePreference: ["lunch", "snack"], groupSize: [1,2], mood: ["light", "quick"] },
+        { id: 81, name: "로스트치킨", category: "western", calories: 380, ingredients: ["닭고기", "허브", "감자"], weatherPreference: "any", timePreference: ["dinner"], groupSize: [2,3,4], mood: ["special", "heavy"] },
+        { id: 82, name: "콘수프", category: "western", calories: 180, ingredients: ["옥수수", "우유", "버터"], weatherPreference: "cold", timePreference: ["lunch", "snack"], groupSize: [1,2], mood: ["warm", "light"] },
+        { id: 83, name: "클램차우더", category: "western", calories: 220, ingredients: ["조개", "감자", "크림"], weatherPreference: "cold", timePreference: ["lunch", "dinner"], groupSize: [1,2], mood: ["warm", "comfort"] },
+        { id: 84, name: "토마토수프", category: "western", calories: 150, ingredients: ["토마토", "양파", "바질"], weatherPreference: "cold", timePreference: ["lunch", "snack"], groupSize: [1,2], mood: ["light", "warm"] },
+      
+        // 분식
+        { id: 85, name: "떡볶이", category: "street-food", calories: 290, ingredients: ["떡", "어묵", "고추장"], weatherPreference: "cold", timePreference: ["snack", "dinner"], groupSize: [1,2,3], mood: ["comfort", "spicy"] },
+        { id: 86, name: "김밥", category: "street-food", calories: 250, ingredients: ["김", "쌀", "단무지"], weatherPreference: "any", timePreference: ["lunch", "snack"], groupSize: [1,2], mood: ["light", "quick"] },
+        { id: 87, name: "순대", category: "street-food", calories: 320, ingredients: ["순대", "간", "허파"], weatherPreference: "cold", timePreference: ["snack", "dinner"], groupSize: [1,2,3], mood: ["comfort", "warm"] },
+        { id: 88, name: "컵라면", category: "street-food", calories: 380, ingredients: ["면", "스프", "파"], weatherPreference: "cold", timePreference: ["snack", "late"], groupSize: [1], mood: ["quick", "comfort"] },
+        { id: 89, name: "토스트", category: "street-food", calories: 320, ingredients: ["빵", "계란", "햄"], weatherPreference: "any", timePreference: ["breakfast", "snack"], groupSize: [1,2], mood: ["light", "quick"] },
+        { id: 90, name: "호떡", category: "street-food", calories: 180, ingredients: ["밀가루", "설탕", "견과류"], weatherPreference: "cold", timePreference: ["snack"], groupSize: [1,2], mood: ["comfort", "warm"] },
+        { id: 91, name: "붕어빵", category: "street-food", calories: 150, ingredients: ["밀가루", "팥", "설탕"], weatherPreference: "cold", timePreference: ["snack"], groupSize: [1,2], mood: ["comfort", "warm"] },
+        { id: 92, name: "라볶이", category: "street-food", calories: 420, ingredients: ["라면", "떡", "고추장"], weatherPreference: "cold", timePreference: ["snack", "late"], groupSize: [1,2], mood: ["spicy", "comfort"] },
+        { id: 93, name: "튀김", category: "street-food", calories: 280, ingredients: ["오징어", "고구마", "김말이"], weatherPreference: "any", timePreference: ["snack"], groupSize: [1,2,3], mood: ["light", "quick"] },
+        { id: 94, name: "어묵탕", category: "street-food", calories: 120, ingredients: ["어묵", "국물", "파"], weatherPreference: "cold", timePreference: ["snack"], groupSize: [1,2], mood: ["warm", "light"] },
+        { id: 95, name: "치즈돈까스김밥", category: "street-food", calories: 420, ingredients: ["김", "돈까스", "치즈"], weatherPreference: "any", timePreference: ["lunch", "snack"], groupSize: [1,2], mood: ["heavy", "comfort"] },
+        { id: 96, name: "핫바", category: "street-food", calories: 180, ingredients: ["어묵", "치즈", "튀김옷"], weatherPreference: "cold", timePreference: ["snack"], groupSize: [1,2], mood: ["warm", "quick"] },
+      
+        // 패스트푸드
+        { id: 97, name: "치킨", category: "fast-food", calories: 580, ingredients: ["닭고기", "튀김가루", "소스"], weatherPreference: "any", timePreference: ["lunch", "dinner", "late"], groupSize: [2,3,4,5], mood: ["special", "heavy"] },
+        { id: 98, name: "감자튀김", category: "fast-food", calories: 320, ingredients: ["감자", "기름", "소금"], weatherPreference: "any", timePreference: ["snack"], groupSize: [1,2,3], mood: ["quick", "light"] },
+        { id: 99, name: "핫도그", category: "fast-food", calories: 280, ingredients: ["소시지", "빵", "머스타드"], weatherPreference: "any", timePreference: ["snack", "lunch"], groupSize: [1,2], mood: ["quick", "light"] },
+        { id: 100, name: "치킨너겟", category: "fast-food", calories: 350, ingredients: ["닭고기", "튀김옷", "소스"], weatherPreference: "any", timePreference: ["snack", "lunch"], groupSize: [1,2,3], mood: ["quick", "light"] },
+        { id: 101, name: "서브웨이샌드위치", category: "fast-food", calories: 380, ingredients: ["빵", "고기", "채소"], weatherPreference: "any", timePreference: ["lunch", "snack"], groupSize: [1,2], mood: ["healthy", "quick"] },
+      
+        // 태국음식
+  { id: 102, name: "팟타이", category: "thai", calories: 420, ingredients: ["쌀국수", "새우", "땅콩"], weatherPreference: "any", timePreference: ["lunch", "dinner"], groupSize: [1,2,3], mood: ["spicy", "special"] },
+  { id: 103, name: "똠얌꿍", category: "thai", calories: 180, ingredients: ["새우", "레몬그라스", "고추"], weatherPreference: "cold", timePreference: ["lunch", "dinner"], groupSize: [1,2], mood: ["spicy", "refreshing"] },
+  { id: 104, name: "그린커리", category: "thai", calories: 380, ingredients: ["닭고기", "코코넛밀크", "바질"], weatherPreference: "any", timePreference: ["lunch", "dinner"], groupSize: [1,2,3], mood: ["spicy", "special"] },
+  { id: 105, name: "망고스티키라이스", category: "thai", calories: 320, ingredients: ["찹쌀", "망고", "코코넛밀크"], weatherPreference: "hot", timePreference: ["snack"], groupSize: [1,2], mood: ["refreshing", "light"] },
+  { id: 106, name: "카오팟", category: "thai", calories: 380, ingredients: ["쌀", "새우", "파인애플"], weatherPreference: "any", timePreference: ["lunch", "dinner"], groupSize: [1,2], mood: ["light", "special"] },
+  { id: 107, name: "쏨땀", category: "thai", calories: 150, ingredients: ["파파야", "땅콩", "라임"], weatherPreference: "hot", timePreference: ["lunch", "snack"], groupSize: [1,2], mood: ["refreshing", "healthy"] },
+  { id: 108, name: "카오만까이", category: "thai", calories: 420, ingredients: ["닭고기", "쌀", "생강"], weatherPreference: "any", timePreference: ["lunch", "dinner"], groupSize: [1,2], mood: ["comfort", "light"] },
+
+  // 베트남음식
+  { id: 109, name: "쌀국수", category: "vietnamese", calories: 350, ingredients: ["쌀국수", "소고기", "고수"], weatherPreference: "any", timePreference: ["lunch", "dinner"], groupSize: [1,2], mood: ["light", "comfort"] },
+  { id: 110, name: "반미", category: "vietnamese", calories: 380, ingredients: ["바게트", "고기", "채소"], weatherPreference: "any", timePreference: ["lunch", "snack"], groupSize: [1,2], mood: ["light", "quick"] },
+  { id: 111, name: "분짜", category: "vietnamese", calories: 420, ingredients: ["쌀국수", "돼지고기", "채소"], weatherPreference: "any", timePreference: ["lunch", "dinner"], groupSize: [1,2], mood: ["light", "healthy"] },
+  { id: 112, name: "분보후에", category: "vietnamese", calories: 380, ingredients: ["쌀국수", "소고기", "레몬그라스"], weatherPreference: "cold", timePreference: ["lunch", "dinner"], groupSize: [1,2], mood: ["spicy", "warm"] },
+  { id: 113, name: "고이꾸온", category: "vietnamese", calories: 180, ingredients: ["쌀종이", "새우", "채소"], weatherPreference: "hot", timePreference: ["lunch", "snack"], groupSize: [1,2,3], mood: ["light", "healthy"] },
+  { id: 114, name: "짜조", category: "vietnamese", calories: 250, ingredients: ["돼지고기", "새우", "튀김옷"], weatherPreference: "any", timePreference: ["snack", "dinner"], groupSize: [1,2,3], mood: ["light", "quick"] },
+
+  // 인도음식
+  { id: 115, name: "카레", category: "indian", calories: 450, ingredients: ["고기", "양파", "향신료"], weatherPreference: "cold", timePreference: ["lunch", "dinner"], groupSize: [1,2,3], mood: ["spicy", "warm"] },
+  { id: 116, name: "난", category: "indian", calories: 280, ingredients: ["밀가루", "요거트", "버터"], weatherPreference: "any", timePreference: ["lunch", "dinner"], groupSize: [1,2,3], mood: ["comfort", "light"] },
+  { id: 117, name: "탄두리치킨", category: "indian", calories: 320, ingredients: ["닭고기", "요거트", "향신료"], weatherPreference: "any", timePreference: ["dinner"], groupSize: [2,3,4], mood: ["spicy", "special"] },
+  { id: 118, name: "사모사", category: "indian", calories: 200, ingredients: ["밀가루", "감자", "완두콩"], weatherPreference: "any", timePreference: ["snack"], groupSize: [1,2], mood: ["light", "quick"] },
+  { id: 119, name: "비리야니", category: "indian", calories: 480, ingredients: ["향신료", "쌀", "고기"], weatherPreference: "any", timePreference: ["lunch", "dinner"], groupSize: [1,2,3], mood: ["special", "heavy"] },
+  { id: 120, name: "버터치킨", category: "indian", calories: 420, ingredients: ["닭고기", "토마토", "크림"], weatherPreference: "cold", timePreference: ["dinner"], groupSize: [1,2,3], mood: ["comfort", "special"] },
+
+  // 멕시칸
+  { id: 121, name: "타코", category: "mexican", calories: 250, ingredients: ["토르티야", "고기", "살사"], weatherPreference: "any", timePreference: ["lunch", "dinner"], groupSize: [1,2,3], mood: ["spicy", "light"] },
+  { id: 122, name: "부리또", category: "mexican", calories: 520, ingredients: ["토르티야", "콩", "고기"], weatherPreference: "any", timePreference: ["lunch", "dinner"], groupSize: [1,2], mood: ["heavy", "spicy"] },
+  { id: 123, name: "퀘사디아", category: "mexican", calories: 420, ingredients: ["토르티야", "치즈", "고기"], weatherPreference: "any", timePreference: ["lunch", "dinner"], groupSize: [1,2,3], mood: ["comfort", "heavy"] },
+  { id: 124, name: "나초", category: "mexican", calories: 380, ingredients: ["또띠야칩", "치즈", "할라피뇨"], weatherPreference: "any", timePreference: ["snack"], groupSize: [2,3,4], mood: ["light", "spicy"] },
+  { id: 125, name: "엔칠라다", category: "mexican", calories: 450, ingredients: ["토르티야", "치즈", "소스"], weatherPreference: "any", timePreference: ["dinner"], groupSize: [1,2,3], mood: ["heavy", "spicy"] },
+  { id: 126, name: "치미창가", category: "mexican", calories: 480, ingredients: ["토르티야", "고기", "치즈"], weatherPreference: "any", timePreference: ["lunch", "dinner"], groupSize: [1,2], mood: ["heavy", "comfort"] },
+
+  // 디저트/음료
+  { id: 127, name: "빙수", category: "dessert", calories: 350, ingredients: ["얼음", "팥", "우유"], weatherPreference: "hot", timePreference: ["snack"], groupSize: [1,2,3], mood: ["refreshing", "light"] },
+  { id: 128, name: "아이스크림", category: "dessert", calories: 250, ingredients: ["우유", "설탕", "바닐라"], weatherPreference: "hot", timePreference: ["snack"], groupSize: [1,2], mood: ["refreshing", "light"] },
+  { id: 129, name: "케이크", category: "dessert", calories: 380, ingredients: ["밀가루", "설탕", "크림"], weatherPreference: "any", timePreference: ["snack"], groupSize: [1,2,3], mood: ["special", "comfort"] },
+  { id: 130, name: "마카롱", category: "dessert", calories: 120, ingredients: ["아몬드", "설탕", "크림"], weatherPreference: "any", timePreference: ["snack"], groupSize: [1,2], mood: ["special", "light"] },
+  { id: 131, name: "티라미수", category: "dessert", calories: 320, ingredients: ["마스카포네", "커피", "코코아"], weatherPreference: "any", timePreference: ["snack"], groupSize: [1,2], mood: ["special", "comfort"] },
+  { id: 132, name: "푸딩", category: "dessert", calories: 180, ingredients: ["우유", "설탕", "젤라틴"], weatherPreference: "any", timePreference: ["snack"], groupSize: [1,2], mood: ["light", "comfort"] },
+  { id: 133, name: "와플", category: "dessert", calories: 420, ingredients: ["밀가루", "버터", "시럽"], weatherPreference: "any", timePreference: ["breakfast", "snack"], groupSize: [1,2], mood: ["comfort", "special"] },
+  { id: 134, name: "쿠키", category: "dessert", calories: 150, ingredients: ["밀가루", "버터", "설탕"], weatherPreference: "any", timePreference: ["snack"], groupSize: [1,2,3], mood: ["light", "comfort"] },
+  { id: 135, name: "스무디", category: "dessert", calories: 220, ingredients: ["과일", "요거트", "얼음"], weatherPreference: "hot", timePreference: ["snack"], groupSize: [1,2], mood: ["refreshing", "healthy"] },
+  { id: 136, name: "프라푸치노", category: "dessert", calories: 280, ingredients: ["커피", "우유", "얼음"], weatherPreference: "hot", timePreference: ["snack"], groupSize: [1,2], mood: ["refreshing", "quick"] },
+  { id: 137, name: "과일샐러드", category: "dessert", calories: 120, ingredients: ["딸기", "키위", "포도"], weatherPreference: "hot", timePreference: ["snack"], groupSize: [1,2], mood: ["healthy", "refreshing"] },
+
+  // 추가 한식 메뉴
+  { id: 138, name: "야채곱창", category: "korean-grill", calories: 380, ingredients: ["곱창", "야채", "고추장"], weatherPreference: "any", timePreference: ["dinner", "late"], groupSize: [2,3,4], mood: ["spicy", "heavy"] },
+  { id: 139, name: "김치전", category: "korean-rice", calories: 280, ingredients: ["김치", "밀가루", "계란"], weatherPreference: "cold", timePreference: ["snack", "dinner"], groupSize: [1,2,3], mood: ["comfort", "spicy"] },
+  { id: 140, name: "해물파전", category: "korean-rice", calories: 320, ingredients: ["해물", "파", "밀가루"], weatherPreference: "cold", timePreference: ["snack", "dinner"], groupSize: [2,3,4], mood: ["comfort", "special"] },
+];
