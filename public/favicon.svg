@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#EA580C"/>
+      <stop offset="100%" style="stop-color:#DC2626"/>
+    </linearGradient>
+  </defs>
+  <!-- 둥근 배경 -->
+  <rect width="128" height="128" rx="28" fill="url(#bg)"/>
+  <!-- 접시 -->
+  <ellipse cx="64" cy="72" rx="38" ry="12" fill="rgba(255,255,255,0.2)"/>
+  <ellipse cx="64" cy="70" rx="34" ry="10" fill="rgba(255,255,255,0.15)"/>
+  <!-- 밥그릇 -->
+  <path d="M 36 58 Q 36 78 64 78 Q 92 78 92 58 Z" fill="white"/>
+  <path d="M 36 58 L 92 58" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  <ellipse cx="64" cy="58" rx="28" ry="8" fill="white"/>
+  <!-- 밥 -->
+  <ellipse cx="64" cy="56" rx="24" ry="6" fill="#FDE68A"/>
+  <!-- 김치/반찬 점 -->
+  <circle cx="54" cy="54" r="3" fill="#EF4444"/>
+  <circle cx="64" cy="52" r="2.5" fill="#22C55E"/>
+  <circle cx="74" cy="54" r="3" fill="#F97316"/>
+  <!-- 젓가락 -->
+  <line x1="46" y1="32" x2="58" y2="52" stroke="white" stroke-width="3" stroke-linecap="round"/>
+  <line x1="52" y1="30" x2="62" y2="50" stroke="white" stroke-width="3" stroke-linecap="round"/>
+  <!-- 김 (steam) -->
+  <path d="M 50 38 Q 48 32 50 26" stroke="rgba(255,255,255,0.6)" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M 64 36 Q 62 28 64 22" stroke="rgba(255,255,255,0.6)" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M 78 38 Q 76 32 78 26" stroke="rgba(255,255,255,0.6)" stroke-width="2" fill="none" stroke-linecap="round"/>
+</svg>
