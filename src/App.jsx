@@ -126,6 +126,7 @@ function App() {
       <div className="max-w-lg mx-auto px-4 pb-8">
         <Header currentTime={currentTime} currentWeather={filters.weather} />
 
+        <main>
         <FilterPanel
           filters={filters}
           setFilters={setFilters}
@@ -159,6 +160,7 @@ function App() {
           favorites={favorites}
           onRemoveFavorite={removeFavorite}
         />
+        </main>
 
         {/* Footer */}
         <footer className="text-center mt-10 py-6">

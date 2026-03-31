@@ -12,7 +12,7 @@ const Header = ({ currentTime, currentWeather }) => {
         </h1>
       </div>
       <p className="text-center text-stone-500 text-sm mb-5">
-        딱 맞는 메뉴를 추천해드릴게요
+        198가지 메뉴 중 딱 맞는 식사를 추천해드려요
       </p>
       <div className="flex justify-center gap-3">
         <span className="badge bg-stone-100 text-stone-600">
